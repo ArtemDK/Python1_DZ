@@ -5,8 +5,9 @@
 
 
 import random
+
 number = int(input('введите длину списка: '))
-my_list = [random.randint(0,100) for _ in range (number)]
+my_list = [random.randint(0, 100) for _ in range(number)]
 print(my_list)
 my_list.sort()
 print(my_list)
@@ -34,13 +35,3 @@ else:
     print(f'Максимально близкое число от {find} -> {dig_max}')
 
 
-# near_num = -1
-# min_d = max(my_list) - finde
-# if int(my_list[item]) == number:
-#         count += 1
-# for i in my_list:
-#     if abs(i - number) < min_d:
-#         min_d = abs(i - number)
-#         closest_num = i
-# print(f'{count} раз встречается в заданном списке число {number}')
-# print(f'максимально близкое число {near_num}')
